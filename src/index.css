@@ -3,3 +3,31 @@
 * {
   font-family: 'Nunito', sans-serif;
 }
+
+.bg-space-gray {
+  background-color: #b2b5b8;
+}
+
+.bg-space-gray-2 {
+  background-color: #7d7e80;
+}
+
+.bg-gold {
+  background-color: #f0e0d3;
+}
+
+.bg-silver {
+  background-color: #e0e2e1;
+}
+
+.bg-silver-2 {
+  background-color: #e3e4e6;
+}
+
+.bg-midnight {
+  background-color: #2e3641;
+}
+
+.bg-starlight {
+  background-color: #f0e5d3;
+}
