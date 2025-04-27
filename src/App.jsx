@@ -6,6 +6,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import IPhone from './components/IPhone';
 import MacBook from './components/MacBook';
+import Watch from './components/Watch';
+import IMac from './components/IMac';
 
 function App() {
   const [frameZoom, setFrameZoom] = useState(false);
@@ -29,7 +31,9 @@ function App() {
         <div className='flex-grow'>
           {/* <Home /> */}
           {/* <IPhone /> */}
-          <MacBook />
+          {/* <MacBook /> */}
+          {/* <Watch /> */}
+          <IMac />
         </div>
       </div>
     </div>

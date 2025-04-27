@@ -3,7 +3,7 @@ import React from 'react';
 const Controls = ({ toggleZoom, frameZoom }) => {
 
   return (
-    <div className='absolute top-3 right-3 space-x-2'>
+    <div className='absolute top-3 right-3 space-x-2 z-10'>
       <button className='text-2xl text-pink-400 cursor-pointer' onClick={toggleZoom}>
         <i className={frameZoom ? 'bx bxs-zoom-out' : 'bx bxs-zoom-in'}></i>
       </button>
