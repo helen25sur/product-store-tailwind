@@ -10,8 +10,8 @@ const Watch = () => {
       <div className="w-full flex justify-around">
 
         {watchModels.map((watch, index) => (
-          <div className="w-60 h-[430px] flex flex-col justify-around group">
-            <div key={index} className="w-full h-64 mb-4 overflow-hidden relative">
+          <div key={index} className={`w-60 h-[430px] flex flex-col justify-around group ${index === 2 && 'hidden md:flex' }`}>
+            <div className="w-full h-64 mb-4 overflow-hidden relative">
               <img src={watch.imgs[0]} alt={watch.name} className='absolute w-full h-full object-contain opacity-100 group-hover:opacity-0 transition duration-300' />
               <img src={watch.imgs[1]} alt={watch.name} className='absolute w-full h-full object-contain opacity-0 group-hover:opacity-100 transition duration-300' />
             </div>
